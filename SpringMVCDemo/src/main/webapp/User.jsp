@@ -4,15 +4,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Home</title>
+<title>User Page</title>
 </head>
 <body>
-<body bgcolor="cyan">
-<h1 align="center">Welcome to Transvision</h1>
-<h4 align="right">
-<a href="Login.jsp">Admin</a> |
-<a href="User.jsp">User</a>
-</h4>
-<hr>
+<center><br/><br/><br/>
+<form action="report">
+Enter the Sl No: <input type="text" name="sl"><input type="submit" value="Generate Pdf Report">
+</form>
+${invalid}<br>
+<a href="index.jsp">Back</a>
+</center>
 </body>
 </html>
